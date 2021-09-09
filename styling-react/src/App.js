@@ -1,12 +1,11 @@
-import "./App.css";
-import SassComponent from "./SassComponent";
-import { Component } from "react";
+import StyledComponents from "./StyledComponents";
+import React, { Component } from "react";
 
 class App extends Component {
   render() {
     return (
       <div>
-        <SassComponent />
+        <StyledComponents />
       </div>
     );
   }
